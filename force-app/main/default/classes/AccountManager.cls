@@ -5,7 +5,7 @@ global with sharing class AccountManager {
         RestRequest request = RestContext.request;
         String accountId = 
 			request.requestURI.substring(request.requestURI.lastIndexOf('/')+1);
-        	return [SELECT Id, Name, Industry, Type FROM Account WHERE Id=: accountId];
+        	return   [SELECT Id, Name, Industry, Type FROM Account WHERE Id=: accountId];
     }
     
     

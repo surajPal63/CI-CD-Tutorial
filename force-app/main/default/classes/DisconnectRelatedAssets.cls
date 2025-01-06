@@ -34,7 +34,7 @@ public class DisconnectRelatedAssets
                 if (sre.isSuccess()) {
                     System.debug('Successfully published event.');
                 } else {
-                    for(Database.Error err : sre.getErrors()) {
+                    for (Database.Error err : sre.getErrors()) {
                         System.debug('Error returned: ' +
                         err.getStatusCode() +
                         ' - ' +

@@ -22,7 +22,7 @@ global class PilotRatingBatch implements Database.Batchable<sObject> {
             contactList.add(mission.Pilot__r);
         }
         
-        update contactList;
+        update    contactList;
     }
 
     global void finish(Database.BatchableContext bc) {

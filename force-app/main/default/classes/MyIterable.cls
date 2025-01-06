@@ -2,7 +2,7 @@ public class MyIterable implements Iterable<String> {
     private List<String> strings;
     
     // Constructor with `this` keyword to refer to the instance variable
-    public MyIterable(List<String> strings) {
+    public MyIterable (List<String> strings) {
         this.strings = strings;
     }
     
