@@ -2,6 +2,6 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Phone_Number_Should_be_Have_Values</fullName>
     <active>true</active>
-    <errorConditionFormula>ISBLANK(Phone)</errorConditionFormula>
+    <errorConditionFormula>AND(ISBLANK(Phone), ISPICKVAL(Rating, &quot;&quot;))</errorConditionFormula>
     <errorMessage>Phone Number Should Be Active for the user</errorMessage>
 </ValidationRule>
