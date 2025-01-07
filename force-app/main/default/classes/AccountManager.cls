@@ -1,4 +1,5 @@
 @RestResource( urlMapping = '/Accounts/*' )
+///ddtyuytujy
 global with sharing class AccountManager {
 	@HttpGet
     global static Account getAccountById() {
