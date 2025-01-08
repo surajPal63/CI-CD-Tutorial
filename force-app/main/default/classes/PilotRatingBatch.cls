@@ -1,5 +1,5 @@
 global class PilotRatingBatch implements Database.Batchable<sObject> {
-    
+    //Test 4
     global Database.QueryLocator start(Database.BatchableContext bc) {
         //Intentionally skip Pilot__r.Pilot_Rating__c field from the SOQL query to force the error: SObject row was retrieved via SOQL without querying the requested field: Mission__c.Pilot__r. 
         //Do not update the SOQL query for the solution.
