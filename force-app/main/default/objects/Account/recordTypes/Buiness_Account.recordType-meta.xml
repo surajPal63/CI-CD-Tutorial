@@ -6,10 +6,6 @@
     <picklistValues>
         <picklist>AccountSource</picklist>
         <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Partner Referral</fullName>
             <default>false</default>
         </values>
@@ -21,21 +17,9 @@
             <fullName>Purchased List</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Web</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Industry</picklist>
-        <values>
-            <fullName>Agriculture</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Apparel</fullName>
-            <default>false</default>
-        </values>
         <values>
             <fullName>Banking</fullName>
             <default>false</default>

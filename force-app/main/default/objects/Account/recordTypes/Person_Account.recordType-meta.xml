@@ -10,18 +10,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Partner Referral</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Phone Inquiry</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Purchased List</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Web</fullName>
             <default>false</default>
         </values>
@@ -130,14 +118,6 @@
         </values>
         <values>
             <fullName>Recreation</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Retail</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Shipping</fullName>
             <default>false</default>
         </values>
         <values>
