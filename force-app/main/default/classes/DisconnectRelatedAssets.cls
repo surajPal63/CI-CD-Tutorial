@@ -3,7 +3,7 @@ public class DisconnectRelatedAssets
 
     @InvocableMethod 
     public static void sendRelatedAssetsforUpdate(List<List<Asset>> assetIds) {
-       
+       /// new override change by me 
         Map<Id, Asset> assetMap = new Map<Id, Asset>();
         List<Asset> assetList = assetIds.get(0);
           for (Asset a : assetList) {
